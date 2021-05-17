@@ -6,37 +6,7 @@ public class Conta {
 	private double saldo;
 	
 
-	public int getNumero() {
-		return numero;
-	}
-
-	public void setNumero(int numero) {
-		this.numero = numero;
-	}
-
-	public String getAgencia() {
-		return agencia;
-	}
-
-	public void setAgencia(String agencia) {
-		this.agencia = agencia;
-	}
-
-	public String getDono() {
-		return dono;
-	}
-
-	public void setDono(String dono) {
-		this.dono = dono;
-	}
-
-	public double getSaldo() {
-		return saldo;
-	}
-
-	public void setSaldo(double saldo) {
-		this.saldo = saldo;
-	}
+	
 
 	@Override
 	public String toString() {
